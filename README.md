@@ -3,4 +3,4 @@ Original Flower is an imaginary flower shop brand. Any similarity to this name i
 
 I designed and developed the landing page. It is a project for practicing HTML, CSS skills.
 
-About the logo, font, color, they're referenced to a Canva's template: https://www.canva.com/templates/EAD7QXqvckE-pink-and-maroon-beauty-logo/.
+About the logo, font, color, they're inspired by a Canva's template: https://www.canva.com/templates/EAD7QXqvckE-pink-and-maroon-beauty-logo/.
