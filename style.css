@@ -37,7 +37,7 @@ h2 {
 }
 
 .btn {
-  background-color: #986D6F;
+  background-color: #640e23;
   color: whitesmoke;
   border: none;
   border-radius: 0.25rem;
@@ -51,7 +51,7 @@ h2 {
 }
 
 .btn:hover {
-  background-color: #640e23;
+  background-color: #5A1721;
 }
 
 header {
@@ -77,11 +77,11 @@ header {
 
 #nav-bar ul {
   display: flex;
-  flex-direction: row;
   font-family: 'Tenor Sans', sans-serif;
   font-size: 1.5rem;
   letter-spacing: 2px;
   width: 100%;
+  justify-content: space-evenly;
 }
 
 .nav-link {
@@ -216,6 +216,7 @@ footer {
   margin-top: 30px;
   background-color: #fde8e2;
   padding: 20px;
+  font-size: 0.8rem;
 }
 
 footer>ul {
@@ -230,5 +231,5 @@ footer>ul>li {
 footer>span {
   margin-top: 5px;
   display: flex;
-  justify-content: flex-end;
+  justify-content: center;
 }
