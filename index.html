@@ -1,18 +1,67 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet"
-          href="https://fonts.googleapis.com/css?family=Tenor+Sans|Montserrat">
-    <title>Original flowers</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Original flowers</title>
 </head>
+
 <body>
-    <header id="header">
+  <header id="header">
+    <div class="logo">
       <img id="header-img" alt="flower logo" src="Logo.png">
-      <nav id="nav-bar">search</nav>
-    </header>
-  
+    </div>
+    <nav id="nav-bar">
+      <ul>
+        <li><a class="nav-link" href="#plan">Plan</a></li>
+        <li><a class="nav-link" href="#pricing">Pricing</a></li>
+        <li><a class="nav-link" href="#tips">Tips</a></li>
+    </nav>
+  </header>
+  <div class="container"></div>
+  <section id="banner">Original Flowers - make life beautiful</section>
+  <section id="plan">
+    <ul> Our plan
+      <li>Fresh cut and carefully packed flowers delivery every week.</li>
+      <li>Unique hand-designed flower arrangement.</li>
+      <li>No cancellation fees.</li>
+    </ul>
+  </section>
+  <section id="pricing">
+    <div class="plan">
+      <div class="level">1 month plan</div>
+      <h2>$120</h2><button class="btn">Select</button>
+    </div>
+    <div class="plan">
+      <div class="level">3 months plan</div>
+      <h2>$350</h2><button class="btn">Select</button>
+    </div>
+    <div class="plan">
+      <div class="level">6 months plan</div>
+      <h2>$680</h2><button class="btn">Select</button>
+    </div>
+
+  </section>
+  <section id="tips">
+    <iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/CMpvhEJ9Bcc" frameborder="0"
+      allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+    </iframe>
+  </section>
+  <h2>Subscribe our newsletter today for more information.</h2>
+  <form id="form" action="https://www.freecodecamp.com/email-submit">
+    <input type="email" placeholder="Enter your email address">
+    <input type="submit" id="submit" class="btn" value='Get started'>
+  </form>
+  <footer>
+    <ul>
+      <li><a href="#">Privacy</a></li>
+      <li><a href="#">Terms</a></li>
+      <li><a href="#">Contact</a></li>
+    </ul>
+    <span>Copyright 2020, Original Flowers</span>
+  </footer>
 </body>
+
 </html>
