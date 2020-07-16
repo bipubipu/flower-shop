@@ -5,6 +5,15 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="style.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script>
+    function dynamicHeight(){
+      $('#banner').css('margin-top', 50 + $('#header').height());
+    };
+    
+    $(document).ready(dynamicHeight);
+    $(window).resize(dynamicHeight);
+  </script>
   <title>Original flowers</title>
 </head>
 
@@ -18,10 +27,10 @@
         <li><a class="nav-link" href="#plan">Plan</a></li>
         <li><a class="nav-link" href="#pricing">Pricing</a></li>
         <li><a class="nav-link" href="#tips">Tips</a></li>
+      </ul>  
     </nav>
   </header>
-  <div class="container"></div>
-  <section id="banner">Original Flowers - make life beautiful</section>
+  <div id="banner">Original Flowers - make life beautiful</div>
   <section id="plan">
     <ul> Our plan
       <li>Fresh cut and carefully packed flowers delivery every week.</li>
